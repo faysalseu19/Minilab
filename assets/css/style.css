@@ -1,0 +1,434 @@
+/*
+  Theme Name: Name - Multipurpose HTML Template
+  Author: 
+  Support: admin@gmail.com
+  Description: Creative  HTML5 template.
+  Version: 1.0
+*/
+
+/* CSS Index 
+------------------------------------
+
+*/
+
+/* =============================================
+1. Theme default css
+============================================== */
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+ body {
+	font-family: 'Poppins', sans-serif;
+	font-size: 22px;
+	line-height: 40px;
+	font-weight: 400;
+	color: #717171;
+	height: 100vh;
+	width: 100%;
+	background-color: #ffffff;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+img {
+	max-width: 100%;
+}
+a {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	color: #000;
+	text-transform: capitalize;
+	-webkit-transition: all 0.4s ease-out;
+	-moz-transition: all 0.4s ease-out;
+	-ms-transition: all 0.4s ease-out;
+	-o-transition: all 0.4s ease-out;
+	transition: all 0.4s ease-out;
+}
+a:focus,
+a:hover {
+    outline: medium none;
+    text-decoration: none;
+    color: inherit;
+}
+a:focus,
+button {
+	text-decoration: none;
+	outline: none;
+}
+
+a:focus,
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	color: #000;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+li {
+	list-style: none;
+}
+p {
+	margin: 0;
+}
+input:focus,
+button:focus {
+	outline: none;
+	border-color: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+  }
+*::placeholder {
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	color: #ff836e;
+	text-shadow: none;
+}
+/* Button Style */
+.btn-wrapper {
+	text-align: left;
+}
+.minilab-btn {
+	display: inline-block;
+	text-transform: capitalize;
+	background-image: -moz-linear-gradient( -166deg, rgb(255,95,109) 0%, rgb(255,195,113) 100%);
+	background-image: -webkit-linear-gradient( -166deg, rgb(255,95,109) 0%, rgb(255,195,113) 100%);
+	background-image: -ms-linear-gradient( -166deg, rgb(255,95,109) 0%, rgb(255,195,113) 100%);
+	font-size: 22px;
+	color: rgb(255, 255, 255);
+	font-weight: 500;
+	width: 245px;
+	height: 61px;
+	line-height: 61px;
+	text-align: center;
+	border: 1px solid transparent;
+	transition: all 0.4s ease-in-out;
+}
+.minilab-btn:hover {
+	background: transparent;
+	color: #000;
+	border-color: rgb(255,95,109);
+}
+
+/* section style */
+
+.section-title {
+	margin-bottom: 145px;
+
+}
+.right-section-title h2,
+.section-title h2 {
+	font-size: 74px;
+	line-height: 1.4;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+
+/* =============================================
+Minilab Navigation Style
+============================================== */
+.mobile-menu {
+	display: none;
+}
+.header-area .navbar {
+	left: 0;
+    right: 0;
+	position: absolute;
+	transition: all 0.4s ease-in-out;
+	/* padding: 105px 0 0; */
+	z-index: 9999;
+}
+/* .header-area.sticky{
+	box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.4);
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	left: 0;
+	z-index: 990;
+	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+	background: #fff;
+	opacity: 0.8;
+	padding-bottom: 0;
+} */
+.header-area .nav-container .navbar-collapse .navbar-nav {
+    display: block;
+    width: 100%;
+	text-align: right;
+}
+.header-area .nav-container .navbar-collapse .navbar-nav li {
+    margin-left: 35px;
+    display: inline-block;
+}
+.header-area .nav-container .navbar-collapse .navbar-nav li a {
+	display: block;
+	color: #fff;
+	font-size: 22px;
+	font-weight: 500;
+	text-transform: capitalize;
+	margin: 0;
+	padding: 25px 0;
+	transition: all 0.4s ease-in-out;
+}
+.header-area .nav-container .navbar-collapse .navbar-nav li a:hover {
+	color: #000;
+	font-weight: 600;
+}
+/* .header-area.sticky .nav-container .navbar-collapse .navbar-nav li a {
+    color: #000;
+} */
+
+/* =============================================
+Minilab Hero Area Style
+============================================== */
+.minilab-hero-area {
+	position: relative;
+	padding-top: 150px;
+}
+.minilab-hero-area::before {
+	position: absolute;
+	content: "";
+	top: -15%;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	background: url(../img/Shape-1.png);
+	background-size: 60% 100%;
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+.minilab-hero-area .minilab-hero-content {
+	display: flex;
+	align-items: center;
+}
+.minilab-hero-area .minilab-hero-content .minilab-hero-text {
+	padding-top: 185px;
+}
+.minilab-hero-area .minilab-hero-content .minilab-hero-text h1 {
+	font-size: 80px;
+	font-weight: 600;
+	line-height: 1.2;
+	text-align: left;
+}
+  
+.minilab-hero-area .minilab-hero-content .minilab-hero-text h1 span {
+	color: #8b8b8b;
+}
+.minilab-hero-area .minilab-hero-content .minilab-hero-text p {
+	font-size: 28px;
+	line-height: 35px;
+	margin: 30px 0 60px;
+}
+
+.minilab-hero-image img {
+	position: absolute;
+	right: 35px;
+	border-radius: 25px;
+}
+/* =============================================
+Minilab Services Area Style
+============================================== */
+.services-area {
+	padding-top: 286px;
+	padding-bottom: 310px;
+}
+.services-area .single-service-item {
+	border-radius: 25px;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0px 19px 103px 0px rgba(180, 180, 180, 0.25);
+	padding: 50px 50px 60px 48px;
+	transition: all 0.4s ease-in-out;
+}
+.services-area .single-service-item .icon .fa-lightbulb,
+.services-area .single-service-item .icon .fa-palette,
+.services-area .single-service-item .icon .fa-galactic-republic {
+	font-size: 55px;
+	margin-left: 10px;
+	color: #ff836e;
+	transition: all 0.4s ease-in-out;
+}
+.services-area .single-service-item .title {
+	font-size: 20px;
+	margin: 28px 0 24px;
+	transition: all 0.4s ease-in-out;
+}
+.services-area .single-service-item p{
+	transition: all 0.4s ease-in-out;
+}
+.services-area .btn-wrapper {
+	margin-top: 140px;
+	text-align: center;
+}
+.services-area .single-service-item:hover {
+	background-image: -moz-linear-gradient( 153deg, rgb(255,195,113) 0%, rgb(255,95,109) 100%);
+	background-image: -webkit-linear-gradient( 153deg, rgb(255,195,113) 0%, rgb(255,95,109) 100%);
+	background-image: -ms-linear-gradient( 153deg, rgb(255,195,113) 0%, rgb(255,95,109) 100%);
+}
+.services-area .single-service-item:hover .icon .fa-lightbulb,
+.services-area .single-service-item:hover .icon .fa-palette,
+.services-area .single-service-item:hover .icon .fa-galactic-republic,
+.services-area .single-service-item:hover .title,
+.services-area .single-service-item:hover p {
+	color: #ffffff;
+}
+/* =============================================
+Minilab  Video Area Style
+============================================== */
+.video-area {
+	padding-bottom: 300px;
+}
+.video-area .video-wrapper img.video-thumb{
+	border-radius: 25px;
+	min-height: 620px;
+}
+  
+.video-area .video-wrapper .play-icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	height: 140px;
+	width: 140px;
+	line-height: 160px;
+	background-image: -moz-linear-gradient( 153deg, rgb(255,195,113) 0%, rgb(255,95,109) 100%);
+	background-image: -webkit-linear-gradient( 153deg, rgb(255,195,113) 0%, rgb(255,95,109) 100%);
+	background-image: -ms-linear-gradient( 153deg, rgb(255,195,113) 0%, rgb(255,95,109) 100%);
+	text-align: center;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.video-area .video-wrapper .play-icon .fa-play {
+	font-size: 60px;
+	color: #ffffff;
+}
+.right-section-title {
+	padding-top: 70px;
+}
+.right-section-title h2 {
+	text-align: left;
+}
+.right-section-title p {
+	font-size: 23px;
+	line-height: 36px;
+	margin: 30px 0 40px;
+}
+/* =============================================
+Minilab Clients Area Style
+============================================== */
+.minilab-clients-area {
+	padding-bottom: 300px;
+}
+.minilab-clients-area .client-comment {
+	padding-left: 80px;
+}
+.minilab-clients-area .client-comment p {
+	font-size: 22px;
+	line-height: 36px;
+	margin-bottom: 90px;
+}
+.minilab-clients-area .active-carousel .single-client-wrapper {
+	border-radius: 25px;
+	box-shadow: 0px 19px 103px 0px rgba(180, 180, 180, 0.25);
+	padding: 50px 45px 55px 54px;
+}
+.minilab-clients-area .single-client-wrapper .client-thumb img {
+	width: 82px;
+	height: 82px;
+	border-radius: 50%;
+}
+.minilab-clients-area .client-details .name {
+	font-size: 20px;
+	font-weight: 700;
+	margin: 36px 0 40px;
+	color: #ff836e;
+}
+/* =============================================
+Minilab Sing in Area Style
+============================================== */
+.Sing-in-area {
+	padding-bottom: 320px;
+}
+.Sing-in-area form input[type="email"]{
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0px 10px 12.74px 0.26px rgba(113, 113, 113, 0.14);
+    border: none;
+    color: #000;
+	height: 81px;
+	line-height: 81px;
+    padding-left: 85px;
+	width: 65%;
+	border-radius: 70px;
+}
+.Sing-in-area form button {
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	background-image: -moz-linear-gradient( 153deg, rgb(255,195,113) 0%, rgb(255,95,109) 100%);
+	background-image: -webkit-linear-gradient( 153deg, rgb(255,195,113) 0%, rgb(255,95,109) 100%);
+	background-image: -ms-linear-gradient( 153deg, rgb(255,195,113) 0%, rgb(255,95,109) 100%);
+    border: none;
+    color: #ffffff;
+	height: 81px;
+    line-height: 81px;
+    margin-left: 65px;
+	padding: 0 70px;
+	border-radius: 70px;
+	cursor: pointer;
+}
+
+  
+  
+
+/* =============================================
+Minilab Footer Area Style
+============================================== */
+.footer-area {
+	background-image: -moz-linear-gradient( 150deg, rgb(255,195,113) 0%, rgb(255,95,109) 100%);
+	background-image: -webkit-linear-gradient( 150deg, rgb(255,195,113) 0%, rgb(255,95,109) 100%);
+	background-image: -ms-linear-gradient( 150deg, rgb(255,195,113) 0%, rgb(255,95,109) 100%);
+	padding: 120px 0 105px;
+}
+ .footer-logo {
+	margin-bottom: 120px;
+ } 
+.footer-widget h4 {
+	font-size: 26px;
+	color: #ffffff;
+	font-weight: 600;
+	margin-bottom: 60px;
+}
+.footer-widget ul li+li {
+  margin-top: 16px;
+}
+.footer-widget ul li a {
+    font-size: 26px;
+    font-weight: 300;
+    color: #ffffff;
+}
+.social-links-icon a {
+  font-size: 50px;
+  display: inline-block;
+  background: transparent;
+  color: #fff;
+  margin-right: 25px;
+  margin-top: 28px;
+}
+

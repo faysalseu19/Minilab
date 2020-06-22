@@ -1,0 +1,339 @@
+
+
+@media screen and (min-width: 1397px) and (max-width: 1420px) {
+
+}
+/* Normal desktop :1200px. */
+@media (min-width: 1367px) and (max-width: 1396px) {
+
+    .container {
+        max-width: 1470px;
+    }
+    body {
+        font-size: 26px;
+    }
+    .services-area .section-title h2,
+    .right-section-title h2 {
+        font-size: 70px;
+    }
+    .header-area .nav-container .navbar-collapse .navbar-nav li {
+        margin-left: 55px;
+    }
+    .minilab-hero-area .minilab-hero-content .minilab-hero-text h1 {
+        font-size: 100px;
+    }
+    .minilab-hero-area .minilab-hero-content .minilab-hero-text p {
+        font-size: 29px;
+        padding-right: 20%;
+    }
+    .minilab-hero-image img {
+        position: absolute;
+        right: 16px;
+        height: 100%;
+        width: 100%;
+    }
+    .minilab-hero-area::before {
+        top: -15%;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        background-size: 57% 100%;
+    }
+    .minilab-clients-area .active-carousel .single-client-wrapper {
+        background: transparent;
+        padding: 20px 40px;
+    }
+    .minilab-clients-area .client-details .name {
+        margin: 16px 0;
+    }
+    .minilab-clients-area .client-details p {
+        font-size: 20px;
+    }
+    
+
+}
+@media (min-width: 1200px) and (max-width: 1366px) { 
+    .right-section-title h2,
+    .section-title h2 {
+        font-size: 60px;
+    }
+    .minilab-clients-area .active-carousel .single-client-wrapper {
+        background: transparent;
+        padding: 20px 40px;
+    }
+    .minilab-clients-area .client-details .name {
+        margin: 16px 0;
+    }
+    .minilab-clients-area .client-details p {
+        font-size: 16px;
+    }
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .right-section-title h2,
+    .section-title h2 {
+        font-size: 50px;
+    }
+    .header-area .nav-container .navbar-collapse .navbar-nav li {
+        margin-left: 12px;
+    }
+    .minilab-hero-area .minilab-hero-content .minilab-hero-text h1 {
+        font-size: 62px;
+    }
+    .minilab-hero-area .minilab-hero-content .minilab-hero-text p {
+        font-size: 22px;
+    }
+    .minilab-hero-area::before {
+        height: 110%;
+        top: -23%;
+        background-size: 60% 100%;
+    }
+    .minilab-hero-image img {
+        top: 24px;
+    }
+    .services-area .single-service-item {
+        padding: 50px 40px 50px 28px;
+    }
+    .services-area .single-service-item .title {
+        font-size: 18px;
+    }
+    .services-area .single-service-item p {
+        font-size: 20px;
+    }
+    .minilab-clients-area .client-comment p {
+        font-size: 20px;
+        margin-bottom: 80px;
+    }
+    .minilab-clients-area .active-carousel .single-client-wrapper {
+        background: transparent;
+        padding: 20px 30px;
+    }
+    .minilab-clients-area .client-details .name {
+        margin: 16px 0;
+    }
+    .minilab-clients-area .client-details p {
+        font-size: 16px;
+    }
+    .Sing-in-area form button {
+        margin-left: 45px;
+    }
+    .footer-widget ul li a {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 991px) {
+    .section-padding {
+        padding: 60px 0;
+    }
+    .section-title {
+        margin-bottom: 60px;
+    }
+    .right-section-title h2,
+    .section-title h2 {
+        font-size: 50px;
+    }
+    .mobile-menu {
+        display: block;
+    }
+    .header-area .nav-container {
+        position: relative;
+        z-index: 0;
+        min-height: 80px;
+    }
+    .slicknav_menu {
+        padding: 0;
+        background: #ffea00;
+    }
+    .slicknav_btn {
+        text-shadow: none;
+        margin: 0;
+        padding: 0;
+    }
+    .slicknav_menu .slicknav_menutxt {
+        display: none;
+    }
+    .slicknav_menu .slicknav_icon {
+        background: none;
+        margin: 0;
+        position: absolute;
+        height: 24px;
+        width: 40px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        top: calc(50% - 12px);
+        left: -80px;
+    }
+    .slicknav_menu .slicknav_icon:before {
+        background: #fff;
+        color: #000;
+        z-index: -1;
+        padding: 30px 35px;
+        top: -18px;
+        right: -15px;
+        display: block;
+        content: "";
+        position: absolute;
+    }
+    .slicknav_menu .slicknav_icon-bar {
+        width: 40px;
+
+    }
+    .slicknav_menu .slicknav_icon-bar {
+        background-color: #000;
+    }
+    ul.slicknav_nav {
+        position: absolute;
+        background: #000;
+        margin-top: 38px;
+        right: 0;
+        width: 100%;
+        padding: 20px;
+        border-radius: 10px;
+        opacity: 0.9;
+    }
+    .slicknav_nav a {
+        font-size: 22px;
+        font-weight: 400;
+        text-decoration: none;
+        color: #fff;
+        padding: 10px;
+        margin: 5px 0;
+        transition: all 0.4s ease-in-out;
+    }
+    .header-area.sticky {
+        box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.4);
+        background-color: #000;
+        opacity: 0.8;
+    }
+    .slicknav_nav a:hover {
+        border-radius: 0;
+        background: transparent;
+        color: #ff836e;
+    }
+    .minilab-hero-area {
+        padding-top: 0;
+    }
+    .slicknav_nav a .fa-search{
+        display: none;
+    }
+    .minilab-hero-area::before {
+        top: -9%;
+        right: -7px;
+        height: 100%;
+        width: 100%;
+        background-size: 50% 100%;
+    }
+    .services-area .section-title h2 {
+        font-size: 45px;
+    }
+    .services-area .single-service-item {
+        margin-bottom: 26px;
+    }
+    .services-area .btn-wrapper {
+        margin-top: 14px;
+    }
+    .video-area .video-wrapper img.video-thumb {
+        min-height: auto;
+    }
+    .video-area .video-wrapper .play-icon {
+        top: 50%;
+        left: 50%;
+        height: 120px;
+        width: 120px;
+        line-height: 140px;
+    }
+    .video-area .video-wrapper .play-icon .fa-play {
+        font-size: 40px;
+    }
+    .minilab-clients-area .active-carousel {
+        margin-top: 40px;
+    }
+    .footer-logo {
+        margin-bottom: 70px;
+    }
+    .footer-widget h4 {
+        margin-bottom: 20px;
+    }
+    .footer-widget ul li+li {
+        margin-top: 10px;
+    }
+    .footer-widget ul li a {
+        font-size: 22px;
+    }
+    .company-list,
+    .contact-list {
+        margin-top: 40px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .minilab-hero-area .minilab-hero-content .minilab-hero-text h1 {
+        font-size: 52px;
+    }
+    .minilab-hero-area .minilab-hero-content .minilab-hero-text p {
+        font-size: 20px;
+        margin: 5px 0 18px;
+    }
+    .minilab-hero-image img {
+        right: 0;
+        top: 30%;
+    }
+    .Sing-in-area form button {
+        margin-left: 24px;
+    }
+    .services-area .single-service-item {
+        padding: 40px 40px 50px 48px;
+    }
+
+}
+/* Tablet desktop :768px. */
+
+@media (max-width: 767px) {
+
+    .right-section-title h2, .section-title h2 {
+        font-size: 40px;
+    }
+    .services-area .section-title h2 {
+        font-size: 32px;
+    }
+    .services-area,
+    .video-area,
+    .clients-area,
+    .Sing-in-area {
+        padding-bottom: 60px;
+    }
+    .services-area .single-service-item {
+        padding-right: 60px;
+    }
+    .right-section-title {
+        padding-top: 40px;
+    }
+    .right-section-title p {
+        margin: 20px 0 30px;
+    }
+    .Sing-in-area form input[type="email"] {
+        display: block;
+        width: 100%;
+    }
+    .Sing-in-area form button {
+        display: block;
+        margin-left: 0px;
+        width: 100%;
+        margin-top: 40px;
+    }
+    .footer-area {
+        padding: 90px 0 80px;
+    }
+    .resources-list {
+        margin-top: 40px;
+    }
+
+}
+ 
+/* Large Mobile :480px. 
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
